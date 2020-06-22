@@ -205,17 +205,17 @@ func (iv *invoicer) getIndex(w http.ResponseWriter, r *http.Request) {
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Invoicer Web</title>
+        <title>Web-приложение</title>
         <script src="statics/jquery-1.12.4.min.js"></script>
         <script src="statics/invoicer-cli.js"></script>
         <link href="statics/style.css" rel="stylesheet">
     </head>
     <body>
-	<h1>Invoicer Web</h1>
+	<h1>Web-приложение</h1>
         <p class="desc-invoice"></p>
         <div class="invoice-details">
         </div>
-        <h3>Request an invoice by ID</h3>
+        <h3>Найдите значение по ID</h3>
         <form id="invoiceGetter" method="GET">
             <label>ID :</label>
             <input id="invoiceid" type="text" />
